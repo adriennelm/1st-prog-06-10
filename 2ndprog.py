@@ -12,4 +12,5 @@ fig.update_layout(title='Mapa Coroplético dos paises',
                   geo_scope='world')
 
 fig.update_layout(title='Mapa Coroplético dos países', geo_scope='world')
+
 st.plotly_chart(fig, use_container_width=True, theme="streamlit")
